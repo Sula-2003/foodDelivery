@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="./login.js" defer></script>
+</head>
+<body>
+    <button id="backward" style="margin: 10px; border: 2px solid green; width: 100px; height: 40px; border-radius: 40px;">backward</button>
+    <button id="forward" style="margin: 10px; border: 2px solid green; width: 100px; height: 40px; border-radius: 40px;">forward</button>
+    <div id="form">
+    <main>
+        <div id="main">
+        <h1 style="color: green;"><u>Log in</u></h1>
+        <form action="">
+            <div>
+                <label for="email" style="color: orange;"><b>Email Id</b></label>
+                <input type="text" name="email" id="email">
+                <span id="emailError" style="color: red;"></span>
+            </div>
+            <div>
+                <label for="password" style="color: orange;"><b>Password</b></label>
+                <input type="password" name="password" id="password">
+                <span id="passwordError" style="color: red;"></span>
+            </div>
+            <button id="login">Log In</button>
+        </form>
+        </div>
+    </main>
+    </div>
+</body>
+</html>
