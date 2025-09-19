@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+main div h3{
+    margin-left: 100px;
+    height: 30px;
+}
+#Items{
+    margin: 10px auto;
+    width: 600px;
+    height: 500px;
+    border: 4px solid orangered;
+    background-color: beige;
+}
+.foodcart{
+    padding: 8px 12px;
+    margin: 5px;
+    background: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 6px;       
+    font-size: 16px;          
+    cursor: pointer;          
+    transition: background 0.3s;
+}
+.foodcart:hover{
+    background: orange;
+    color: white;
+}
+#cartItems{
+    margin: 10px;
+    width: 400px;
+    height: 350px;
+    background-color: aliceblue;
+}
+#btn{
+    width: 100px;
+    height: 40px;
+}
+#order-now{
+    margin: 10px;
+    background-color: rgb(139, 215, 139); 
+    border: 2px solid green; 
+    width: 100px; 
+    height: 40px; 
+    border-radius: 40px;
+}
+#order-now:hover{
+    background-color: rgb(234, 200, 138);
+    border: 2px solid orange; 
+    width: 100px; 
+    height: 40px; 
+    border-radius: 40px;
+}

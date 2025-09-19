@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#searchbar{
+    margin: 10px 10px;
+    height: 50px;
+    width: 600px;
+
+}
+#searchbar :hover{
+    margin: 10px 10px;
+    height: 50px;
+    width: 600px;
+    border: 4px solid black;
+}

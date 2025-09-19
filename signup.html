@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="signup.js" defer></script>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div>
+            <button id="backward" style="border: 2px solid green; width: 100px; height: 40px; border-radius: 40px;">backward</button>
+            <button id="forward" style="border: 2px solid green; width: 100px; height: 40px; border-radius: 40px;">forward</button>
+        </div>
+        <button id="home" style="margin: 20px; border: 2px solid green; width: 100px; height: 40px; border-radius: 40px; cursor: pointer;">Home</button>
+    </header>
+    
+    <main>
+        <h1><u>Sign Up</u></h1>
+        <form id="signup">
+            <div id="fname1">
+                <label for="fname" style="color: orange;"><b>First Name:</b></label>
+                <input type="text" name="fname" id="fname"><br>
+                <span id="fnameError" style="color: red;"></span>
+            </div>
+            <div>
+                <label for="email" style="color: orange;"><b>Email Id:</b></label>
+                <input type="email" name="email" id="email"><br>
+                <span id="emailError" style="color: red;"></span>
+            </div>
+            <div>
+                <label for="password" style="color: orange;"><b>password</b></label>
+                <input type="password" name="password" id="password"><br>
+                <span id="passwordError" style="color: red;"></span>
+            </div>
+            <div>
+                <label for="cPassword" style="color: orange;"><b>Confirm password</b></label>
+                <input type="password" name="cPassword" id="cPassword"><br>
+                <span id="cPasswordError" style="color: red;"></span>
+            </div>
+            <button id="btn">Sign Up</button>
+        </form>
+        <p>If you are already registered</p>
+        <button id="login">Log in</button>
+    </main>
+</body>
+</html>
